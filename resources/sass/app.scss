@@ -1,0 +1,23 @@
+@import '~bootstrap';
+
+table,
+td {
+    border: 1px solid #333;
+}
+th{
+    border-top: 1px solid #333;
+}
+table{
+    width: 100%;
+    text-align: center;
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    margin-bottom: 20px;
+}
+thead,
+tfoot {
+    background-color: red;
+    color: #fff;
+}
